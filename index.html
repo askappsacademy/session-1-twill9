@@ -1,17 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+     <link rel="stylesheet" href="styles.css">
     <title>My video player</title>
     <body>  
-  <div class="container">
-    <h1 style="text-align:center">My video player </h1>
-  <iframe src="https://player.vimeo.com/video/35055590" width="320" height="240" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-  <iframe title="vimeo-player" src="https://player.vimeo.com/video/163662857" width="320" height="240" frameborder="0" allowfullscreen></iframe><br>
-  <iframe title="vimeo-player" src="https://player.vimeo.com/video/60735314" width="320" height="240" frameborder="0" allowfullscreen></iframe>
-  <iframe src="https://player.vimeo.com/video/81229520?color=ffffff&title=0&portrait=0" width="320" height="240" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></br>
-  <iframe src="https://player.vimeo.com/video/229651971" width="320" height="240" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  <div id="container">
+    <h1 style="text-align: center;
+  border: 3px solid blue" >My video player</h1> 
+    <div id="video">
+      <div id="videolist">
+        <ul>
+ <li> <video width="320" height="240" controls poster="https://i.vimeocdn.com/video/349464671_295x166.jpg?r=pad"
+><source src="https://player.vimeo.com/video/35055590" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+</li>
+<li> <video width="320" height="240" controls poster="https://i.vimeocdn.com/video/567120156_295x166.jpg?r=pad"
+><source src="https://player.vimeo.com/video/163662857" type="video/mp4">
+  Your browser does not support the video tag.
+</video></li>
 
-  </div>
+<li> <video width="320" height="240" controls poster="https://i.vimeocdn.com/video/421792571_295x166.jpg?r=pad"
+><source src="https://player.vimeo.com/video/60735314" type="video/mp4">
+  Your browser does not support the video tag.
+</video></li>
+
+<li> <video width="320" height="240" controls poster="https://i.vimeocdn.com/video/609372175_295x166.jpg?r=pad"
+><source src="https://player.vimeo.com/video/81229520?color=ffffff&title=0&portrait=0" type="video/mp4">
+  Your browser does not support the video tag.
+</video></li>
+
+<li> <video width="320" height="240" controls poster="https://i.vimeocdn.com/video/650019737_295x166.jpg?r=pad"
+><source src="https://player.vimeo.com/video/229651971" type="video/mp4">
+  Your browser does not support the video tag.
+</video></li>
+
+ </ul> </div> </div>
+
+ </div>
 </body>
   </head>
 </html>
